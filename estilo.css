@@ -1,0 +1,128 @@
+
+/* Definindo estilos para o corpo da página */
+body {
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #f5f827;
+    padding: 10px 0; /* Adiciona espaçamento superior e inferior ao cabeçalho */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+
+/* Estilos para os itens da barra de navegação */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px 0 0 30px;
+}
+
+/* Estilos para os links na barra de navegação */
+nav a {
+    color: rgb(161, 245, 25);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+
+/* Estilos para o título da seção "Encomendas" */
+
+
+/* Estilos para a imagem do logo */
+.logo_padoca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow; /* Cor de fundo amarela para a área do logo */
+    padding: 10px; /* Adiciona algum espaçamento ao redor do logo se necessário */
+}
+
+
+
+
+
+/* Estilos para as células do cabeçalho */
+.tabela-encomendas th {
+    background-color: #f1a93b; /* Cor de fundo original */
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 15px; /* Ajuste o valor conforme necessário para aumentar o fundo */
+    font-weight: bold; /* Adiciona negrito ao texto */
+}
+
+.tabela-encomendas td {
+    border: 2px solid #e7be08;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Estilo para alternar as cores das linhas */
+.tabela-encomendas tbody tr:nth-child(even) {
+    background-color: #fbfcf5;
+}
+
+/* Estilo para a tabela de encomendas */
+.tabela-encomendas {
+    width: 80%;
+    margin: 0 auto; /* Adiciona margens automáticas para centralizar a tabela */
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.cor-encomendas {
+    color: #FFA500; /* Cor laranja para a palavra "Encomendas" */
+}
+
+/* Adicionando cor à palavra "Encomendas" e movendo para a direita */
+.titulo-container {
+    text-align: left;
+    margin-right: 190px; /* Ajuste conforme necessário */
+    margin-left: 190px; /* Ajuste conforme necessário */
+    margin-bottom: 5px; /* Adiciona espaçamento abaixo da frase */
+}
+
+
+/* Estilo para a linha divisória */
+.linha-divisoria {
+    border: 2px solid #eaee0c; /* Cor e estilo da linha */
+}
+
+/* Estilos para o rodapé */
+footer {
+    position: fixed; /* Fixa o rodapé na parte inferior da tela */
+    bottom: 0; /* Alinha o rodapé à parte inferior da página */
+    width: 100%; /* Ocupa toda a largura da página */
+    text-align: center;
+    background-color: yellow; /* Cor de fundo do rodapé */
+    color: orange; /* Cor do texto no rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    font-weight: bold; /* Deixa o texto em negrito */
+    display: flex; /* Utiliza um layout flexível para alinhar itens na horizontal */
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: center; /* Centraliza horizontalmente os itens */
+}
+
+.logo_padoca_footer img {
+    margin-right: 10px; /* Adapte a margem conforme necessário */
+    height: 30px; /* Ajusta a altura da imagem conforme necessário */
+}
