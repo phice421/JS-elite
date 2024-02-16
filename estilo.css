@@ -126,3 +126,25 @@ footer {
     margin-right: 10px; /* Adapte a margem conforme necessário */
     height: 30px; /* Ajusta a altura da imagem conforme necessário */
 }
+
+
+
+/************************************************************************************************************/
+/*                   CSS CATALOGO PRODUTOS                                                                   /
+/************************************************************************************************************/
+
+/* Adicione estilos para os itens do catálogo */
+.item-catalogo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-catalogo img {
+    border: 1px solid #ddd; /* Adicione uma borda para as imagens */
+    border-radius: 8px; /* Adicione bordas arredondadas para as imagens */
+}
+
+.nome-produto {
+    font-weight: bold;
+    margin-top: 5px;
+}
