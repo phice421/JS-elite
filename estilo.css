@@ -1,4 +1,24 @@
 
+/* Estilo para os links do cabeçalho */
+.header-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #333; /* Cor do texto do link */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Transição suave da cor do texto */
+}
+
+.header-links a:hover {
+    color: #ff6347; /* Cor do texto do link ao passar o mouse */
+}
+
+
+
 /* Definindo estilos para o corpo da página */
 body {
     font-family: "Arial";
@@ -44,20 +64,24 @@ nav a {
 }
 
 
-
+/************************************************/
 /* Estilos para o título da seção "Encomendas" */
+/************************************************/
 
 
 /* Estilos para a imagem do logo */
 .logo_padoca {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background-color: yellow; /* Cor de fundo amarela para a área do logo */
     padding: 10px; /* Adiciona algum espaçamento ao redor do logo se necessário */
 }
 
-
+.logo_padoca img {
+    margin-right: 400px; /* Ajuste a margem conforme necessário */
+    margin-left: 100px; 
+}
 
 
 
@@ -107,6 +131,74 @@ nav a {
     border: 2px solid #eaee0c; /* Cor e estilo da linha */
 }
 
+
+
+
+
+/* Estilos para as células do cabeçalho da nova tabela de encomendas */
+.nova-tabela-encomendas th {
+    background-color: #f1a93b; /* Cor de fundo original */
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 15px; /* Ajuste o valor conforme necessário para aumentar o fundo */
+    font-weight: bold; /* Adiciona negrito ao texto */
+}
+
+/* Estilos para as células do corpo da nova tabela de encomendas */
+.nova-tabela-encomendas td {
+    border: 2px solid #e7be08;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Estilo para alternar as cores das linhas da nova tabela de encomendas */
+.nova-tabela-encomendas tbody tr:nth-child(even) {
+    background-color: #fbfcf5;
+}
+
+/* Estilo para a nova tabela de encomendas */
+.nova-tabela-encomendas {
+    width: 80%;
+    margin: 0 auto; /* Adiciona margens automáticas para centralizar a tabela */
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Estilo para a linha divisória da nova tabela de encomendas */
+.nova-tabela-encomendas .linha-divisoria {
+    border: 2px solid #eaee0c; /* Cor e estilo da linha */
+}
+
+
+
+
+
+/************************************************************************************************************/
+/*                   CSS CATALOGO PRODUTOS                                                                   /
+/************************************************************************************************************/
+
+/* Adicione estilos para os itens do catálogo */
+.item-catalogo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-catalogo img {
+    border: 1px solid #f8b016; /* Adicione uma borda para as imagens */
+    border-radius: 8px; /* Adicione bordas arredondadas para as imagens */
+}
+
+.nome-produto {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+
+
+/************************************************************************************************************/
+/*                 FOOTER                                                                   /
+/************************************************************************************************************/
 /* Estilos para o rodapé */
 footer {
     position: fixed; /* Fixa o rodapé na parte inferior da tela */
@@ -125,26 +217,4 @@ footer {
 .logo_padoca_footer img {
     margin-right: 10px; /* Adapte a margem conforme necessário */
     height: 30px; /* Ajusta a altura da imagem conforme necessário */
-}
-
-
-
-/************************************************************************************************************/
-/*                   CSS CATALOGO PRODUTOS                                                                   /
-/************************************************************************************************************/
-
-/* Adicione estilos para os itens do catálogo */
-.item-catalogo {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.item-catalogo img {
-    border: 1px solid #ddd; /* Adicione uma borda para as imagens */
-    border-radius: 8px; /* Adicione bordas arredondadas para as imagens */
-}
-
-.nome-produto {
-    font-weight: bold;
-    margin-top: 5px;
 }
